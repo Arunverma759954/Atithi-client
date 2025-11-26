@@ -12,7 +12,7 @@ export default function ServiceSection() {
     {
       title: "Fine Dining",
       description: "Enjoy a gourmet experience with a wide variety of cuisines prepared by top chefs, in a relaxing and elegant setting.",
-      img: "/assets/img2.jpg",
+      img: "/assets/about1.jpg",
     },
     {
       title: "Spa & Wellness",
