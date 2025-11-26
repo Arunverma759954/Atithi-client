@@ -98,7 +98,7 @@ export default function AboutPage() {
       </section>
 
       {/* ===================== STATS COUNTER ===================== */}
-      <section className="relative py-20 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/assets/banner/b1.jpg')"}}>
+      <section className="relative py-20 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/assets/about1.jpg')"}}>
         <div className="absolute inset-0 bg-black/30"></div>
 
         {/* Heading */}
