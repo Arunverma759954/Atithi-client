@@ -41,10 +41,15 @@ export default function Footer() {
 
         {/* SOCIAL MEDIA ICONS */}
         <div>
-          <h3 className="text-xl font-semibold mb-4 text-[#FACC15]">Follow Us</h3>
-
-          <div className="flex space-x-4 mt-3">
-
+          <h3 className="text-xl font-semibold mb-2 text-[#FACC15]">Follow Us</h3>
+        
+          {/* SUB-HEADING */}
+          <p className="text-gray-300 text-sm mb-4">
+            Stay connected with us
+          </p>
+        
+          <div className="flex space-x-4">
+        
             {/* Facebook */}
             <a
               href="#"
@@ -53,7 +58,7 @@ export default function Footer() {
             >
               <FaFacebookF className="text-white text-lg" />
             </a>
-
+        
             {/* Instagram */}
             <a
               href="#"
@@ -62,7 +67,7 @@ export default function Footer() {
             >
               <FaInstagram className="text-white text-lg" />
             </a>
-
+        
             {/* YouTube */}
             <a
               href="#"
@@ -71,7 +76,7 @@ export default function Footer() {
             >
               <FaYoutube className="text-white text-lg" />
             </a>
-
+        
             {/* WhatsApp */}
             <a
               href="https://wa.me/919954362043"
@@ -80,9 +85,10 @@ export default function Footer() {
             >
               <FaWhatsapp className="text-white text-lg" />
             </a>
-
+        
           </div>
         </div>
+
       </div>
 
       {/* COPYRIGHT */}
