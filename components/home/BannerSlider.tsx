@@ -33,8 +33,6 @@ export default function BannerSlider() {
               priority
               className="object-cover z-0"
             />
-
-            {/* DARK OVERLAY */}
             <div className="absolute inset-0 bg-black/50 z-10"></div>
           </div>
         </SwiperSlide>
@@ -48,74 +46,30 @@ export default function BannerSlider() {
               fill
               className="object-cover z-0"
             />
-
-            {/* DARK OVERLAY */}
             <div className="absolute inset-0 bg-black/50 z-10"></div>
           </div>
         </SwiperSlide>
       </Swiper>
 
-      {/* BOOKING OVERLAY BOX */}
-<div className="absolute inset-0 flex items-center justify-center px-4 z-20 translate-y-24">
-  <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white p-6 md:p-8 rounded-2xl shadow-2xl w-full max-w-4xl">
+      {/* ============================  
+           CENTER HEADING + SUBHEADING
+      ============================ */}
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-20 px-4">
 
+        <h1 className="text-white text-4xl md:text-6xl font-extrabold tracking-wide drop-shadow-lg">
+          Welcome to Atithi Hotel
+        </h1>
 
-          <h2 className="text-center text-2xl md:text-3xl font-bold mb-6">
-            Book Your Stay
-          </h2>
+        <p className="text-white/90 text-lg md:text-2xl mt-4 max-w-2xl drop-shadow-lg">
+          Experience comfort, luxury, and a homely ambience in the heart of the city.
+        </p>
 
-          {/* GRID FORM */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-
-            {/* Check In */}
-            <div className="flex flex-col">
-              <label className="text-sm font-semibold">Check In</label>
-              <input
-                type="date"
-                className="mt-2 p-3 rounded-lg bg-white/90 text-black focus:outline-none"
-              />
-            </div>
-
-            {/* Check Out */}
-            <div className="flex flex-col">
-              <label className="text-sm font-semibold">Check Out</label>
-              <input
-                type="date"
-                className="mt-2 p-3 rounded-lg bg-white/90 text-black focus:outline-none"
-              />
-            </div>
-
-            {/* Rooms */}
-            <div className="flex flex-col">
-              <label className="text-sm font-semibold">Rooms</label>
-              <select className="mt-2 p-3 rounded-lg bg-white/90 text-black focus:outline-none">
-                <option>1 Room</option>
-                <option>2 Rooms</option>
-                <option>3 Rooms</option>
-                <option>4 Rooms</option>
-              </select>
-            </div>
-
-            {/* Guests */}
-            <div className="flex flex-col">
-              <label className="text-sm font-semibold">Guests</label>
-              <select className="mt-2 p-3 rounded-lg bg-white/90 text-black focus:outline-none">
-                <option>1 Adult, 0 Child</option>
-                <option>2 Adults, 0 Child</option>
-                <option>2 Adults, 1 Child</option>
-                <option>2 Adults, 2 Children</option>
-              </select>
-            </div>
-          </div>
-
-          {/* BUTTON */}
-          <div className="mt-6 flex justify-center">
-            <button className="bg-[#FACC15] hover:bg-yellow-400 text-black font-bold px-8 py-3 rounded-full shadow-lg transition">
-              Checkout Now
-            </button>
-          </div>
-        </div>
+        {/* BUTTON */}
+        <button className="mt-8 bg-[#FACC15] hover:bg-yellow-400 text-black font-bold px-10 py-3 rounded-full shadow-xl transition">
+          Explore Rooms
+        </button>
       </div>
+
     </div>
   );
 }
