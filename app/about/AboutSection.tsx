@@ -62,7 +62,7 @@ export default function AboutPage() {
           {/* LEFT IMAGE */}
           <div className="relative w-full h-[520px] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/assets/img1.jpg"
+              src="/assets/a1.jpg"
               alt="Luxury Hotel"
               fill
               className="object-cover"
@@ -98,7 +98,7 @@ export default function AboutPage() {
       </section>
 
       {/* ===================== STATS COUNTER ===================== */}
-      <section className="relative py-20 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/assets/about1.jpg')"}}>
+      <section className="relative py-20 bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('/assets/a3.jpg')"}}>
         <div className="absolute inset-0 bg-black/30"></div>
 
         {/* Heading */}
@@ -143,7 +143,7 @@ export default function AboutPage() {
           {/* RIGHT IMAGE */}
           <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/assets/img2.jpg"
+              src="/assets/a2.jpg"
               alt="Why Choose Atithi"
               fill
               className="object-cover"
