@@ -27,7 +27,7 @@ export default function BannerSlider() {
         <SwiperSlide>
           <div className="relative w-full h-screen">
             <Image
-              src="/assets/banner/b1.jpg"
+              src="/assets/banner/b4.jpg"
               alt="Hotel Banner 1"
               fill
               priority
@@ -41,7 +41,7 @@ export default function BannerSlider() {
         <SwiperSlide>
           <div className="relative w-full h-screen">
             <Image
-              src="/assets/banner/b2.webp"
+              src="/assets/banner/b5.jpg"
               alt="Hotel Banner 2"
               fill
               className="object-cover z-0"
