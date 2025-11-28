@@ -31,7 +31,7 @@ export default function LuxuryIntroSection() {
           {/* MANAGER INFO */}
           <div className="flex items-center gap-4 pt-4">
             <Image
-              src="/assets/manager/m1.jpg" 
+              src="/assets/images/home-img2.jpg" 
               width={60}
               height={60}
               alt="Manager"
