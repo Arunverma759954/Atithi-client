@@ -57,7 +57,7 @@ export default function BannerSlider() {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-20 px-4">
 
         <h1 className="text-white text-4xl md:text-6xl font-extrabold tracking-wide drop-shadow-lg">
-          Welcome to Atithi Hotel
+          Welcome to Atithi Homestay 
         </h1>
 
         <p className="text-white/90 text-lg md:text-2xl mt-4 max-w-2xl drop-shadow-lg">
