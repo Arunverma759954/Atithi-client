@@ -25,11 +25,11 @@ export default function IntroSection() {
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-extrabold mt-2 leading-tight">
             Experience the Best Hospitality at{" "}
-            <span className="text-[#FACC15]">Atithi Center</span>
+            <span className="text-[#FACC15]">Atithi Homestay </span>
           </h2>
 
           <p className="mt-6 text-gray-600 leading-relaxed">
-            At Atithi Center, we bring you premium comfort and exceptional
+            At Atithi Homestay , we bring you premium comfort and exceptional
             hospitality. Our peaceful environment, spacious luxury rooms, and
             dedicated 24/7 services offer a truly memorable stay for every
             guest. Whether you are traveling for leisure or business, we assure
