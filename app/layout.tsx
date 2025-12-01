@@ -5,7 +5,7 @@ import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 
 export const metadata = {
-  title: "Atithi Center",
+  title: "Atithi Homestay ",
   description: "Modern Hotel / Guest House Website",
 };
 
