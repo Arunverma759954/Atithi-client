@@ -10,7 +10,7 @@ export default function Footer() {
         {/* LOGO + ABOUT */}
         <div>
           <h2 className="text-3xl font-extrabold">
-            Atithi <span className="text-[#FACC15]">Center</span>
+            Atithi <span className="text-[#FACC15]">Homestay</span>
           </h2>
           <p className="mt-4 text-gray-300 leading-relaxed">
             Premium hospitality with comfort, elegance, and warm service — available 24/7.
