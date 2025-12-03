@@ -53,7 +53,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-gray-500 text-sm">Call Us Now</p>
-                  <p className="text-[#0C3436] font-semibold text-lg">9954362043</p>
+                  <p className="text-[#0C3436] font-semibold text-lg">+916000891365</p>
                 </div>
               </div>
 
