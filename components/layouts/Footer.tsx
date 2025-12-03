@@ -33,7 +33,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-[#FACC15]">Contact Info</h3>
           <ul className="space-y-3 text-gray-300">
-            <li>📞 Call Us Now: +91 9954362043</li>
+            <li>📞 Call Us Now: +916000891365</li>
             <li>📍 Alokpur, Near Pratiksha Hospital, VIP Road, Barbari, Guwahati - 781036</li>
             <li>🕒 Open 24/7</li>
           </ul>
@@ -79,7 +79,7 @@ export default function Footer() {
         
             {/* WhatsApp */}
             <a
-              href="https://wa.me/919954362043"
+              href="https://wa.me/916000891365"
               target="_blank"
               className="w-10 h-10 flex items-center justify-center bg-white/10 rounded-full border border-white/20 hover:bg-green-500 transition"
             >
@@ -98,12 +98,12 @@ export default function Footer() {
 
       {/* MOBILE FIXED BOTTOM BAR */}
       <div className="fixed bottom-0 left-0 right-0 md:hidden flex justify-between items-center bg-black/90 px-6 py-3 border-t border-gray-700 z-50">
-        <a href="tel:+919954362043" className="flex items-center text-white space-x-2">
+        <a href="tel:+916000891365" className="flex items-center text-white space-x-2">
           <FaPhoneAlt className="text-2xl text-[#FACC15]" />
           <span className="font-semibold">Call</span>
         </a>
         <a
-          href="https://wa.me/919954362043"
+          href="https://wa.me/916000891365"
           target="_blank"
           className="flex items-center bg-[#25D366] text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-green-500 transition"
         >
@@ -114,7 +114,7 @@ export default function Footer() {
 
       {/* DESKTOP FLOATING WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/919954362043"
+        href="https://wa.me/916000891365"
         target="_blank"
         className="hidden md:flex fixed bottom-10 right-10 bg-[#25D366] text-white px-5 py-4 rounded-full shadow-lg items-center space-x-2 hover:bg-green-500 transition z-50"
       >
