@@ -1,13 +1,29 @@
 import ServiceSection from "./ServiceSection";
 
 export const metadata = {
-  title: "Our Services | Atithi Homestay – Premium Rooms & Guest Facilities",
+  title:
+    "Atithi Homestay Guwahati — Our Services & Amenities",
   description:
-    "Explore the services offered by Atithi Homestay including luxury rooms, guest support, modern amenities, hygienic stay, and family-friendly facilities for a comfortable experience.",
+    "Discover the services at Atithi Homestay Guwahati: comfortable rooms, modern amenities, 24/7 support, airport transfers, tour assistance and personalized hospitality to make your stay seamless and relaxing.",
   keywords:
-    "Atithi Homestay services, luxury homestay services, room facilities, guest support, homestay amenities, premium rooms near me, family stay services, homestay Hanamkonda, best guest house services",
+    "Atithi Homestay Guwahati services, homestay amenities Guwahati, hotel services Assam, Guwahati accommodation amenities, guest house services Guwahati, homestay airport transfer, homestay tour assistance, luxury stay services Guwahati",
 
- };
+  // Canonical URL (Optional but recommended)
+  alternates: {
+    canonical: "https://www.atithihome.com/",
+  },
+
+  // ⭐ Short OG image tag
+  openGraph: {
+    images: "/assets/gallery/s1.jpg", // Place in public folder or use full URL
+  },
+
+  // ⭐ Twitter large card
+  twitter: {
+    card: "summary_large_image",
+    images: "/assets/gallery/s1.jpg",
+  },
+};
 
 export default function Page() {
   return <ServiceSection />;
