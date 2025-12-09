@@ -127,7 +127,7 @@ export default function ContactSection() {
       placeholder="Your Name"
        required
        value={form.name}
-       onChange={(e) => setForm({ ...form, name: e.target.value })}
+       onChange={(e) => setForm({ ...formData, name: e.target.value })}
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     />
     <input
@@ -135,13 +135,13 @@ export default function ContactSection() {
       placeholder="Enter E-mail"
         required
        value={form.email}
-       onChange={(e) => setForm({ ...form, email: e.target.value })}
+       onChange={(e) => setForm({ ...formData, email: e.target.value })}
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     />
     <select 
         required
        value={form.subject}
-       onChange={(e) => setForm({ ...form, subject: e.target.value })}
+       onChange={(e) => setForm({ ...formData, subject: e.target.value })}
        className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]">
       <option>Subject One</option>
       <option>Subject Two</option>
@@ -151,7 +151,7 @@ export default function ContactSection() {
       rows={5}
         required
        value={form.message}
-       onChange={(e) => setForm({ ...form, message: e.target.value })}
+       onChange={(e) => setForm({ ...formData, message: e.target.value })}
       placeholder="Your Message"
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     ></textarea>
