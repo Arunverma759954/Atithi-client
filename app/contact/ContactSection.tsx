@@ -126,22 +126,22 @@ export default function ContactSection() {
       type="text"
       placeholder="Your Name"
        required
-       value={form.name}
-       onChange={(e) => setForm({ ...formData, name: e.target.value })}
+       value={formData.name}
+       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     />
     <input
       type="email"
       placeholder="Enter E-mail"
         required
-       value={form.email}
-       onChange={(e) => setForm({ ...formData, email: e.target.value })}
+       value={formData.email}
+       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     />
     <select 
         required
-       value={form.subject}
-       onChange={(e) => setForm({ ...formData, subject: e.target.value })}
+       value={formData.subject}
+       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
        className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]">
       <option>Subject One</option>
       <option>Subject Two</option>
@@ -150,8 +150,8 @@ export default function ContactSection() {
     <textarea
       rows={5}
         required
-       value={form.message}
-       onChange={(e) => setForm({ ...formData, message: e.target.value })}
+       value={formData.message}
+       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
       placeholder="Your Message"
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     ></textarea>
