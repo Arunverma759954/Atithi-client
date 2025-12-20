@@ -2,7 +2,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
   try {
-    const { name, email, subject, message } = await req.json();
+    const { name, email, mobile, message } = await req.json();
 
     // Create transporter
     const transporter = nodemailer.createTransport({
@@ -19,11 +19,12 @@ export async function POST(req: Request) {
     const mailOptions = {
       from: process.env.GMAIL_USER as string,
       to: process.env.GMAIL_TO as string,
-      subject: `Atithi Home Enquiry ${subject}`,
+      subject: `Atithi Home Enquiry`,
       html: `
         <h2>Enquiry from Atithi Home</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Email:</strong> ${mobile}</p>
         <p><strong>Message:</strong> ${message}</p>
       `,
     };
