@@ -7,7 +7,7 @@ export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
+    mobile: "",
     message: "",
   });
 
@@ -43,7 +43,7 @@ export default function ContactSection() {
       setFormData({
         name: "",
         email: "",
-        subject: "",
+        mobile: "",
         message: "",
       });
     } else {
@@ -139,15 +139,14 @@ export default function ContactSection() {
        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
     />
-    <select 
+    <input
+      type="number"
+      placeholder="Enter Mobile"
         required
-       value={formData.subject}
-       onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-       className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]">
-      <option>Subject One</option>
-      <option>Subject Two</option>
-      <option>Subject Three</option>
-    </select>
+       value={formData.mobile}
+       onChange={(e) => setFormData({ ...formData, mobile: e.target.value })}
+      className="w-full border border-gray-700 rounded-lg px-4 py-3 bg-[#3A3A3A] text-white placeholder-gray-400 focus:outline-none focus:border-[#B59260]"
+    />
     <textarea
       rows={5}
         required
