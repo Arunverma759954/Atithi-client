@@ -100,10 +100,30 @@ export default function Footer() {
 
       </div>
 
-      {/* COPYRIGHT */}
-      <div className="mt-10 border-t border-gray-600 pt-4 text-center text-gray-400">
-        © {new Date().getFullYear()} Atithi Center. All Rights Reserved.
-      </div>
+     {/* COPYRIGHT */}
+<div className="mt-10 border-t border-gray-600 pt-4">
+  <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-2 text-sm text-gray-400">
+    
+    {/* Left */}
+    <div>
+      © {new Date().getFullYear()} Atithi Homestay. All Rights Reserved.
+    </div>
+
+    {/* Right */}
+    <div>
+      Designed & Developed by{" "}
+      <a
+        href="https://digitalsolution360.com"
+        target="_blank"
+        className="text-[#FACC15] hover:text-yellow-400 font-semibold transition"
+      >
+        DigitalSolution360
+      </a>
+    </div>
+
+  </div>
+</div>
+
 
       {/* MOBILE FIXED BOTTOM BAR */}
       <div className="fixed bottom-0 left-0 right-0 md:hidden flex justify-between items-center bg-black/90 px-6 py-3 border-t border-gray-700 z-50">
