@@ -14,7 +14,7 @@ export default function LuxuryIntroSection() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#1E1E1E] leading-tight">
-            Comfortable & Affordable Stay <br /> Near VIP Road
+            Comfortable & Affordable Stay Near VIP Road
           </h2>
 
           <p className="text-gray-600 leading-relaxed">
