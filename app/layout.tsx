@@ -3,6 +3,7 @@
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
+import BookYourStayCTA from "@/components/home/BookYourStayCTA";
 
 export const metadata = {
   title: "Atithi Homestay Guwahati — Luxury Rooms & Premium Hospitality",
@@ -48,6 +49,9 @@ export default function RootLayout({
 
         {/* PAGE CONTENT */}
         <main className="pt-16">{children}</main>
+
+        {/* BOOK YOUR STAY - ABOVE FOOTER */}
+        <BookYourStayCTA />
 
         {/* FOOTER */}
         <Footer />

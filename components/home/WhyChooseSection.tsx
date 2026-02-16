@@ -4,8 +4,7 @@ import Image from "next/image";
 
 export default function WhyChooseSection() {
   return (
-     {/* ===================== WHY CHOOSE ATITHI ===================== */}
-      <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* LEFT CONTENT */}
           <div className="relative w-full h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -16,11 +15,11 @@ export default function WhyChooseSection() {
               className="object-cover"
             />
           </div>
-          {/* RIGHT IMAGE */}
+          {/* RIGHT CONTENT */}
           <div>
-            <h4 className="text-[#1E3A8A] font-semibold tracking-wider uppercase">Why Choose Atithi Home</h4>
+            <h4 className="text-[#1E3A8A] font-semibold tracking-wider uppercase">Why Choose Atithi Home?</h4>
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-extrabold mt-2 leading-tight">
-              Excellence in Service & Hospitality
+              Prime Location, Comfort & 24/7 Support
             </h2>
             <p className="mt-6 text-gray-600 leading-relaxed">
               Atithi offers a perfect blend of comfort, modern amenities, and personalized service. We focus on creating memorable experiences with attention to detail, hygienic rooms, and a welcoming atmosphere.
