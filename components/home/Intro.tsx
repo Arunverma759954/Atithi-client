@@ -25,7 +25,7 @@ export default function IntroSection() {
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-extrabold mt-2 leading-tight">
             Affordable Hotel near{" "}
-            <span className="text-[#FACC15]">Pratiksha Hospital Guwahati – Open 24/7 </span>
+            <span className="text-[#FACC15]">Pratiksha Hospital Guwahati</span> – Open 24/7 
           </h2>
 
           <p className="mt-6 text-gray-600 leading-relaxed">
