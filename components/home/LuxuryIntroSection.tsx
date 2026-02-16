@@ -14,14 +14,13 @@ export default function LuxuryIntroSection() {
           </p>
 
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#1E1E1E] leading-tight">
-            EXPERIENCE LUXURY & COMFORT <br /> AT ATITHI HOMESTAY
+            Comfortable & Affordable Stay <br /> Near VIP Road
           </h2>
 
           <p className="text-gray-600 leading-relaxed">
-            Atithi Homestay blends traditional Indian hospitality with world-class comfort. 
-            Our peaceful ambiance, premium rooms, and warm service ensure a memorable stay 
-            for families, couples, and business travelers alike.
+            Atithi Home is a well-maintained Hotel near VIP Road Guwahati, making it easily accessible from major city landmarks, transportation hubs, and commercial areas. Whether you are visiting for medical reasons, business work, or a family trip, our property ensures a stress-free stay.
           </p>
+          <p className="text-gray-600 leading-relaxed">As a reputed Affordable Hotel in Guwahati, we focus on providing quality rooms, essential amenities, and 24/7 assistance to meet the needs of every guest.</p>
 
           <p className="italic text-gray-700 border-l-4 border-[#8B5E34] pl-4">
             “ Atithi Devo Bhava – At Atithi Homestay, every guest is welcomed with warmth, 
